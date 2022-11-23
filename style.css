@@ -169,6 +169,10 @@ h2{
     display: flex;
     justify-content: space-around;
 }
+.width{
+    width: 70%;
+
+}
 
 
  /*--------- izquierda parte ----------*/
@@ -340,7 +344,12 @@ h3{
 
     margin-bottom: 5px;
 }
-
+.softwareBodySuperior{
+    text-align: center;
+}
+.softwareBodyInferior{
+    text-align: center;
+}
 
 
 /* INTEREST */
@@ -448,9 +457,12 @@ h3{
 }
 
 @media (max-width: 600px) {
+    .superior{
+        margin-top: 20px;
+    }
     .left{
         background-color: #FAFAFA;
-        height: 120vh;
+        height: 50vh;
         background-color: #FFCB47;
     }
     .experiencesBody{
@@ -470,10 +482,11 @@ h3{
         font-size: xx-small;
     }
 }
+
 @media (max-width: 700px) {
     .left{
         background-color: #FAFAFA;
-        height: 110vh;
+        height: 85vh;
         background-color: #FFCB47;
     }
     .experiencesBody{
@@ -486,12 +499,63 @@ h3{
         width: 40%;
     }
     .imgLanguajes{
-        width: 20px;
+        width: 50px;
     }
     .size{
         font-size: smaller;
     }
 }
+@media (max-height: 900px) {
+    .left{
+        background-color: #FAFAFA;
+        height: 80vh;
+        background-color: #FFCB47;
+    }
+}
+@media (max-height: 860px) {
+    .left{
+        background-color: #FAFAFA;
+        height: 85vh;
+        background-color: #FFCB47;
+    }
+}
+@media (max-height: 850px) {
+    .left{
+        background-color: #FAFAFA;
+        height: 85vh;
+        background-color: #FFCB47;
+    }
+}
+@media (max-height: 840px) {
+    .left{
+        background-color: #FAFAFA;
+        height: 120vh;
+        background-color: #FFCB47;
+    }
+}
+@media (max-height: 800px) {
+    .left{
+        background-color: #FAFAFA;
+        height: 96vh;
+        background-color: #FFCB47;
+    }
+}
+@media (max-height: 700px) {
+    .left{
+        background-color: #FAFAFA;
+        height: 110vh;
+        background-color: #FFCB47;
+    }
+}
+@media (max-height: 600px) {
+    .left{
+        background-color: #FAFAFA;
+        height: 130vh;
+        background-color: #FFCB47;
+    }
+}
+
+
 @media (max-width: 1200px) {
     .experiencesSuperiorTitle{
         width: 40%;
@@ -597,6 +661,10 @@ h3{
   }
 
   @media (max-width: 300px) {
+    .left{
+        background-color: #FFCB47;
+        height: 100vh;
+    }
     .pointAmarillo1{
         width: 10px;
         height: 10px;
