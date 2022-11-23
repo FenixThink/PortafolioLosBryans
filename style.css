@@ -1,0 +1,629 @@
+@import url(//db.onlinewebfonts.com/c/994fa1f12fbd90502c95b68c33efc23c?family=Gerbera);
+*{  
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+.container{
+    display: flex;
+    padding: 0% 5%;
+}
+.left{
+    width: 30%;
+    background-color: #FFCB47;
+    height: 100vh;
+}
+.right{
+    padding: 1% 10%;
+    width: 70%;
+    background-color: #F4F4F4;
+
+}
+h1{
+    color: #FFCB47;
+    margin-bottom: 2%;
+}
+p{
+    color : #40636E;
+}
+h2{
+    width: 25%;
+    color : #40636E;
+}
+.experiences{
+    margin-top: 15px;
+}
+.superior{
+    display: flex;
+}
+
+.linea{
+    margin-left: 10px;
+    border-bottom: 1px solid #40636E;
+    height: 20px;
+    width: 100%;
+    max-width: 1000px;
+    padding: 0;
+}
+.experiencesBody{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30%;
+    margin-top: 15px;
+}
+.experiencesIzquierdo{
+    width: 25%;
+}
+.separadorLinea{
+    border-left: 2px solid black;
+    height: 1;
+    width: 100%;
+    max-width: 10px;
+    max-height: 1000px;
+    padding: 0;
+}
+.pointAmarillo1{
+    width: 20px;
+    height: 20px;
+    margin-left: -11px;
+    background-color: #FFCB47;
+    border-radius: 50px;
+}
+.pointNegro1{
+    width: 10px;
+    height: 10px;
+    margin-top: 19px;
+    margin-left: -6px;
+    background-color: #174955;
+    border-radius: 50px;
+}
+.pointNegro2{
+    width: 10px;
+    height: 10px;
+    margin-top: 16px;
+    margin-left: -6px;
+    background-color: #174955;
+    border-radius: 50px;
+}
+.pointNegro3{
+    width: 10px;
+    height: 10px;
+    margin-top: 10px;
+    margin-left: -6px;
+    background-color: #174955;
+    border-radius: 50px;
+}
+.pointAmarillo2{
+    width: 20px;
+    height: 20px;
+    margin-top: 17px;
+    margin-left: -11px;
+    background-color: #FFCB47;
+    border-radius: 50px;
+}
+.hidden{
+    visibility: hidden;
+}
+.SubrayadoAmarillo1{
+    width: 75px;
+    background-color: #FFCB47;
+}
+.SubrayadoAmarillo2{
+    width: 155px;
+    background-color: #FFCB47;
+}
+.SubrayadoAmarillo3{
+    width: 65px;
+    background-color: #FFCB47;
+}
+.blackText{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.blackText1{
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+.ima{
+    width: 50px;
+}
+.ima2{
+    width: 50px;
+}
+.ExperiencesIzquierdoBlackText{
+    margin-top: 5px;
+    margin-bottom: 35px;
+}
+.experiencesDerechoBlackText2{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.habilitesBody{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+}
+.habilitesBodyImg{
+    text-align: center;
+    width: 130px;
+}
+.titleDoble{
+    width: 70%;
+}
+.img1{
+    width: 40px;
+}
+.img2{
+    width: 50px;
+}
+.softwareBodySuperior{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.center{
+    text-align: center;
+}
+.softwareBodyInferior{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+ /*--------- izquierda parte ----------*/
+
+
+/* imagen perfil */
+
+.left{
+    color: #40636E;
+}
+.left1{
+    padding-left: 20px;
+    padding-right: 50px;
+}
+.imgsLeft{
+    width: 20px;
+    height: 20px;
+}
+.minSize{
+    font-size: small;
+}
+.minSize1{
+    font-size: xx-small;
+}
+.size{
+    font-size:medium;
+
+}
+.part1{
+    justify-content: space-around;
+    text-align: center;
+}
+.flex{
+    display:flex;
+    align-items: center;
+}
+h3{
+    font-weight: bolder;
+}
+#imagen-perfil{
+    text-align: center;
+}
+#name1{
+    text-align: center;
+}
+#profile1{
+    text-align: center;
+    font-size: small;
+}
+#image{
+    margin: auto;
+    width:  100px;
+    height: 100px;
+
+}
+#imaProfile{
+    width:  100px;
+    height: 100px;
+}
+#nombre{
+    color: #40636E;
+
+    font-size: 1.5em;
+    font-weight: bold;
+
+    margin-bottom: 3px;
+}
+
+
+#profesion{
+    color: #40636E;
+
+    font-weight:500;
+}
+
+/* PROFILE */
+.decrip{
+    text-align: center  ;
+}
+.profile{
+    margin-top: 25px;
+    margin-bottom: 5px;
+    padding: 2px;
+}
+
+#titulo-profile{
+    font-weight: bold;
+    color: #40636E;
+
+    margin-bottom: 5px;
+}
+
+.images-profile{
+    /* border: solid; */
+
+    /* height: 10000px;
+    width: 10000px; */
+
+    margin-right: 10px ;
+}
+
+#cumpleaños{
+    display: flex;
+
+    /* border: solid; */
+
+    /* padding: 3px; */
+    /* padding-bottom: 5px; */
+
+    align-items: center;
+}
+
+#genero{
+    display: flex;
+
+    /* border: solid; */
+
+    /* padding: 3px; */
+    /* padding-bottom: 5px; */
+
+    align-items: center;
+}
+
+#ubicacion{
+    display: flex;
+
+    /* border: solid; */
+
+    /* padding: 3px; */
+    /* padding-bottom: 5px; */
+
+    align-items: center;
+}
+
+#trabajo{
+    display: flex;
+
+    /* border: solid; */
+
+    /* padding: 3px; */
+    /* padding-bottom: 5px; */
+
+    align-items: center;
+}
+
+#texto-profile{
+    display: flex;
+
+    /* border: solid; */
+
+    /* padding: 3px; */
+    /* padding-bottom: 5px; */
+
+    align-items: center;
+}
+
+/* CONTACT */
+
+.contact{
+    /* border: solid; */
+
+    margin-bottom: 5px;
+    padding: 2px;
+}
+
+#titulo-contact{
+    font-weight: bold;
+    color: #40636E;
+
+    margin-bottom: 5px;
+}
+
+
+
+/* INTEREST */
+
+.interest{
+    /* border: solid; */
+
+    margin-bottom: 5px;
+    padding: 2px;
+}
+
+/* LENGUAJE */
+
+.lenguaje{
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+.imagenProfile{
+    width: 160px;
+    height: 160px;
+}
+@media (max-width: 950px) {
+    .experiencesBody{
+        width: 90%;
+    }
+    .size{
+        font-size: small;
+    }
+}
+@media (max-width: 750px) {
+    .experiencesBody{
+        width: 100%;
+    }
+    .SubrayadoAmarillo1 {
+        width: 90%;
+    }
+    .imgLanguajes{
+        width: 90%;
+    }
+}
+@media (max-width: 500px) {
+    .left{
+        width: 30%;
+        background-color: #FFCB47;
+        height: 65vh;
+    }
+    .imagen-perfil{
+        align-self: center;
+    }
+    .ima{
+        width: 50px;
+    }
+    .ima2{
+        width: 50px;
+    }
+    .experiencesBody{
+        width: 110%;
+    }
+    .superiorTitle{
+        width: 30%;
+    }
+    .experiencesSuperiorTitle{
+        width: 45%;
+    }
+    .right{
+        width: 100%;
+    }
+    #nombre{
+        text-align: center;
+        font-size: xx-large;
+    }
+    #profesion{
+        text-align: center;
+        font-size: x-small;
+    }
+    #profile{
+        margin-top: 15px;
+        padding-left: 20px;
+    }
+    .left{
+        background-color: #FAFAFA;
+        width: 100%;
+    }
+    .superior1{
+        padding-top: 10px;
+        background-color: #FFCB47;
+        display: flex;
+    }
+    .partAbajoLeft{
+        display: flex;
+    }
+    .container{
+        display: block;
+    }
+    .partAbajoLeft{
+        display: flex;
+        margin-top: 10px;
+        justify-content: space-between;
+    }
+    .bgColor{
+        max-width: 130px;
+        background-color: #FFCB47;
+    }
+}
+
+@media (max-width: 600px) {
+    .left{
+        background-color: #FAFAFA;
+        height: 120vh;
+        background-color: #FFCB47;
+    }
+    .experiencesBody{
+        width: 100%;
+    }
+    .displayNone{
+        display: none;
+    }
+    .linea{
+        margin-left: 50px;
+        width: 150px;
+    }
+    .experiencesSuperiorTitle{
+        width: 100%;
+    }
+    .size{
+        font-size: xx-small;
+    }
+}
+@media (max-width: 700px) {
+    .left{
+        background-color: #FAFAFA;
+        height: 110vh;
+        background-color: #FFCB47;
+    }
+    .experiencesBody{
+        width: 90%;
+    }
+    .linea{
+        margin-left: 30px;
+    }
+    .experiencesSuperiorTitle{
+        width: 40%;
+    }
+    .imgLanguajes{
+        width: 20px;
+    }
+    .size{
+        font-size: smaller;
+    }
+}
+@media (max-width: 1200px) {
+    .experiencesSuperiorTitle{
+        width: 40%;
+    }
+    .ima{
+        width: 20%;
+    }
+    .ima2{
+        width: 20%;
+    }
+
+}
+@media (min-width: 1400px) {
+.experiencesBody{
+        display: flex;
+        justify-content: space-between;
+        margin-right: 45%;
+        margin-top: 5%;
+    }
+.pointAmarillo1{
+    width: 20px;
+    height: 20px;
+    margin-left: -11px;
+    background-color: #FFCB47;
+    border-radius: 50px;
+}
+.pointNegro1{
+    width: 10px;
+    height: 10px;
+    margin-top: 21px;
+    margin-left: -6px;
+    background-color: #174955;
+    border-radius: 50px;
+}
+.pointNegro2{
+    width: 10px;
+    height: 10px;
+    margin-top: 18px;
+    margin-left: -6px;
+    background-color: #174955;
+    border-radius: 50px;
+}
+.pointAmarillo2{
+    width: 20px;
+    height: 20px;
+    margin-top: 21px;
+    margin-left: -11px;
+    background-color: #FFCB47;
+    border-radius: 50px;
+}
+    .blackText{
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+    .blackText1{
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .ExperiencesIzquierdoBlackText{
+        margin-top: 5px;
+        margin-bottom: 6px;
+    }
+    .experiencesIzquierdo{
+        width: 23%;
+    }
+    .titleDoble{
+        width: 39%;
+    }
+    .superiorTitle{
+        width: 20%;
+    }
+    .img{
+        width: 100px;
+    }
+    .img2{
+        width: 175px;
+    }
+    .imgsLeft{
+        width: 40px;
+        height: 40px;
+    }
+    .imgsLeft1{
+        width: 100%;
+        height: 100%;
+
+    }
+    .minSize{
+        font-size: large;
+    }
+    .minSize1{
+        font-size: large;
+    }
+    #image{
+        margin: auto;
+        width:  150px;
+        height: 150px;
+    
+    }
+    #imaProfile{
+        width:  150px;
+        height: 150px;
+    }
+  }
+
+  @media (max-width: 300px) {
+    .pointAmarillo1{
+        width: 10px;
+        height: 10px;
+        margin-left: -5px;
+    }
+    .pointAmarillo2{
+        width: 10px;
+        height: 10px;
+        margin-left: -5px;
+        margin-top: 35px;
+    }
+    .pointNegro1{
+        margin-top: 26px;
+        width: 5px;
+        height: 5px;
+        margin-left: -3px;
+    }
+    .pointNegro2{
+        width: 5px;
+        margin-top: 26px;
+        height: 5px;
+        margin-left: -3px;
+    }
+    .pointNegro3{
+        width: 5px;
+        height: 5px;
+        margin-top: 24px;
+        margin-left: -3px;
+    }
+}
