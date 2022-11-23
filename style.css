@@ -169,6 +169,10 @@ h2{
     display: flex;
     justify-content: space-around;
 }
+.width{
+    width: 70%;
+
+}
 
 
  /*--------- izquierda parte ----------*/
@@ -448,9 +452,12 @@ h3{
 }
 
 @media (max-width: 600px) {
+    .superior{
+        margin-top: 20px;
+    }
     .left{
         background-color: #FAFAFA;
-        height: 120vh;
+        height: 50vh;
         background-color: #FFCB47;
     }
     .experiencesBody{
@@ -486,7 +493,7 @@ h3{
         width: 40%;
     }
     .imgLanguajes{
-        width: 20px;
+        width: 50px;
     }
     .size{
         font-size: smaller;
@@ -597,6 +604,10 @@ h3{
   }
 
   @media (max-width: 300px) {
+    .left{
+        background-color: #FFCB47;
+        height: 100vh;
+    }
     .pointAmarillo1{
         width: 10px;
         height: 10px;
