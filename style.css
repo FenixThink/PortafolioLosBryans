@@ -10,13 +10,18 @@
     padding: 0% 5%;
 }
 .left{
+    height: 100vh;
+    overflow-y: scroll;
     width: 30%;
     background-color: #FFCB47;
-    height: 100vh;
-    overflow-y: hidden;
     color: #40636E;
 }
+.tileExperiences{
+    width: 40%;
+}
 .right{
+    height: 100vh;
+    overflow-y: scroll;
     padding: 1% 10%;
     width: 70%;
     background-color: #F4F4F4;
@@ -351,6 +356,9 @@ h3{
 .softwareBodyInferior{
     text-align: center;
 }
+.superiorTitle{
+    width: 50%;
+}
 
 
 /* INTEREST */
@@ -376,6 +384,12 @@ h3{
 @media (max-width: 950px) {
     .experiencesBody{
         width: 90%;
+    }
+    .tileExperiences{
+        width: 70%;
+    }
+    .superiorTitle{
+        width: 70%;
     }
     .size{
         font-size: small;
@@ -409,8 +423,11 @@ h3{
     .experiencesBody{
         width: 110%;
     }
+    .tileExperiences{
+        width: 70%;
+    }
     .superiorTitle{
-        width: 30%;
+        width: 70%;
     }
     .experiencesSuperiorTitle{
         width: 45%;
