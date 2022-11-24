@@ -10,18 +10,13 @@
     padding: 0% 5%;
 }
 .left{
-    height: 100vh;
-    overflow-y: scroll;
-    width: 30%;
+    /* width: 30%; NO ES RECOMENDABLE PONERLE VALOR FIJO */
     background-color: #FFCB47;
+    /* height: 100vh; AL INSPENCIONAR SE DESAPARECE ALGUNOS DATOS DE CONTACTO Y DE AHÍ PARA ABAJO.*/
+    /* overflow-y: hidden;  ESCONDIA EL TEXTO*/
     color: #40636E;
 }
-.tileExperiences{
-    width: 40%;
-}
 .right{
-    height: 100vh;
-    overflow-y: scroll;
     padding: 1% 10%;
     width: 70%;
     background-color: #F4F4F4;
@@ -178,19 +173,16 @@ h2{
 }
 .width{
     width: 70%;
-
 }
 
-
- /*--------- izquierda parte ----------*/
-
+/*--------- izquierda parte ----------*/
 
 /* imagen perfil */
 
 
 .left1{
     padding: 15px 20px;
-    height: 100%;
+    height: fit-content;
     
 }
 .imgsLeft{
@@ -213,6 +205,7 @@ h2{
 }
 .flex{
     display:flex;
+    
     align-items: center;
 }
 h3{
@@ -356,9 +349,6 @@ h3{
 .softwareBodyInferior{
     text-align: center;
 }
-.superiorTitle{
-    width: 50%;
-}
 
 
 /* INTEREST */
@@ -384,12 +374,6 @@ h3{
 @media (max-width: 950px) {
     .experiencesBody{
         width: 90%;
-    }
-    .tileExperiences{
-        width: 70%;
-    }
-    .superiorTitle{
-        width: 70%;
     }
     .size{
         font-size: small;
@@ -423,11 +407,8 @@ h3{
     .experiencesBody{
         width: 110%;
     }
-    .tileExperiences{
-        width: 70%;
-    }
     .superiorTitle{
-        width: 70%;
+        width: 30%;
     }
     .experiencesSuperiorTitle{
         width: 45%;
